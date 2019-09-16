@@ -7,6 +7,22 @@
 <script>
 export default {
   name: "home",
-  components: {}
+  components: {},
+  mounted() {
+    this.$request({
+      url: "_HELLO",
+      type: "GET",
+      param: {},
+      loading: false
+    })
+      .then(res => {
+        console.log(res);
+      })
+      .catch(() => {
+        //  this.$Message.error(res.msg);
+      });
+
+    //this.$request(");
+  }
 };
 </script>
