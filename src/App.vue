@@ -4,7 +4,7 @@
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>|
       <router-link to="/code-mirror">CodeMirror</router-link>|
-      <router-link to="/ball">Ball</router-link>
+      <router-link to="/tank">Tank</router-link>
     </div>
     <router-view />
   </div>
