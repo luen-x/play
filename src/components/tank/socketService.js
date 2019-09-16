@@ -9,7 +9,7 @@ const socketService = {
     this.webSocket.onmessage = message => {
       console.log("get message ", message.currentTarget.data);
 
-      const data = JSON.parse(message.currentTarget.data);
+      // const data = JSON.parse(message.currentTarget.data);
     };
     this.webSocket.onclose = () => {
       console.log("close");
@@ -22,3 +22,4 @@ const socketService = {
     this.eventStore[event].push(handler);
   }
 };
+module.exports = socketService;
