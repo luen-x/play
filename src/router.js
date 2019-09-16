@@ -24,9 +24,9 @@ export default new Router({
       component: () => import("./views/code-mirror.vue")
     },
     {
-      path: "/ball",
-      name: "ball",
-      component: () => import("./views/Ball.vue")
+      path: "/tank",
+      name: "tank",
+      component: () => import("./views/Tank.vue")
     }
   ]
 });

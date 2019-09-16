@@ -1,14 +1,14 @@
 <template>
   <div>
-    <l-ball :is-me="true" />
+    <l-tank :is-me="true" />
   </div>
 </template>
 <script>
-import ball from "../components/ball/ball";
+import tank from "../components/tank/tank";
 export default {
   name: "oa-",
   components: {
-    "l-ball": ball
+    "l-tank": tank
   },
   data() {
     return {};
